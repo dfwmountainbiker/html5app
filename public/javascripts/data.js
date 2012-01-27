@@ -9,26 +9,21 @@ ListDemo.ListStore = new Ext.data.Store({
         return record.get('lastName')[0];
     },
     data: [
-        { firstName: "Domino",      lastName: "Derval" },
-        { firstName: "Elektra",     lastName: "King" },
+        { firstName: "Zen",      lastName: "Sushi" },
+        { firstName: "Wings",     lastName: "To Go" },
         { firstName: "Fiona",       lastName: "Volpe" },
-        { firstName: "Holly",       lastName: "Goodhead" },
-        { firstName: "Honey",       lastName: "Rider" },
-        { firstName: "Jill",        lastName: "Masterton" },
-        { firstName: "Kissy",       lastName: "Suzuki" },
-        { firstName: "Mary",        lastName: "Goodnight" },
-        { firstName: "Miranda",     lastName: "Frost" },
-        { firstName: "Molly",       lastName: "Warmflash" },
-        { firstName: "Paula",       lastName: "Caplan" },
-        { firstName: "Penelope",    lastName: "Smallbone" },
-        { firstName: "Plenty",      lastName: "O'Toole" },
-        { firstName: "Pussy",       lastName: "Galore" },
-        { firstName: "Strawberry",  lastName: "Fields" },
-        { firstName: "Sylvia",      lastName: "Trench" },
-        { firstName: "Tatiana",     lastName: "Romanova" },
-        { firstName: "Tilly",       lastName: "Masterton" },
-        { firstName: "Vesper",      lastName: "Lynd" },
-        { firstName: "Xenia",       lastName: "Onatopp" }
+        { firstName: "White Rock",       lastName: "Steak House" },
+        { firstName: "Vickery",       lastName: "Park" },
+        { firstName: "Via",        lastName: "Real" },
+        { firstName: "Twisted",       lastName: "Root" },
+        { firstName: "Trader",        lastName: "Vics" },
+        { firstName: "Old",     lastName: "Warsaw" },
+        { firstName: "Thai",       lastName: "Flash" },
+        { firstName: "Taqueria",       lastName: "Cholula" },
+        { firstName: "Spargos",    lastName: "Pizza" },
+        { firstName: "Arby",      lastName: "Steakhouse" },
+        { firstName: "Black Rock",       lastName: "Steakhouse" },
+        { firstName: "Chik",  lastName: "Fil-A" }
     ]
 });
 
