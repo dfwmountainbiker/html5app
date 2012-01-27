@@ -4,7 +4,7 @@ Ext.regModel('Contact', {
 
 ListDemo.ListStore = new Ext.data.Store({
     model: 'Contact',
-    sorters: 'lastName',
+    sorters: 'firstName',
     getGroupString : function(record) {
         return record.get('lastName')[0];
     },

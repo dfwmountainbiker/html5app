@@ -5,7 +5,7 @@ ListDemo = new Ext.Application({
 
         ListDemo.detailPanel = new Ext.Panel({
             id: 'detailpanel',
-            tpl: 'Hello, {firstName}!',
+            tpl: 'Hello from, {firstName}!',
             dockedItems: [
                 {
                     xtype: 'toolbar',
