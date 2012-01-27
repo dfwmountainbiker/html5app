@@ -6,7 +6,7 @@ ListDemo.ListStore = new Ext.data.Store({
     model: 'Contact',
     sorters: 'firstName',
     getGroupString : function(record) {
-        return record.get('lastName')[0];
+        return record.get('firstName')[0];
     },
     data: [
         { firstName: "Zen",      lastName: "Sushi" },
